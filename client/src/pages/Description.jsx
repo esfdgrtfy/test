@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function About() {
+const Description = () => {
   return (
     <div className="px-4 py-12 max-w-2xl mx-auto">
-      <h1 className="text-3xl font-bold  mb-4 text-slate-800">About</h1>
+      <h1 className="text-3xl font-bold  mb-4 text-slate-800">Description</h1>
       <p className="mb-4 text-slate-700">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugiat
         nam praesentium animi, molestias ad, sed omnis magnam, recusandae maxime
@@ -24,4 +24,6 @@ export default function About() {
       </p>
     </div>
   );
-}
+};
+
+export default Description;
